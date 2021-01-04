@@ -1,0 +1,189 @@
+body {
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+
+
+#fotocontainer1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer1 img {
+    width: 300px;
+    height: 300px;
+}
+
+#fotocontainer2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer2 img {
+    width: 300px;
+    height: 300px;
+}
+
+#tema2 {
+    position: relative;
+}
+
+#tema2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+}
+
+#tema2 .overlay:hover {
+    opacity: 1;
+}
+
+#tema2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#tema2 .title {
+    font-size: 2em;
+}
+
+#tema3 {
+    position: relative;
+}
+
+#tema3 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+}
+
+#tema3 .overlay:hover {
+    opacity: 1;
+}
+
+#tema3 img {
+    height: 100%;
+    width: 100%;
+}
+
+#tema3 .title {
+    font-size: 2em;
+}
+
+#tema4 {
+    position: relative;
+}
+
+#tema4 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+}
+
+#tema4 .overlay:hover {
+    opacity: 1;
+}
+
+#tema4 img {
+    height: 100%;
+    width: 100%;
+}
+
+#tema4 .title {
+    font-size: 2em;
+}
+
+#tema5 {
+    position: relative;
+}
+
+#tema5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    text-align: center;
+}
+
+#tema5 .overlay:hover {
+    opacity: 1;
+}
+
+#tema5 img {
+    height: 100%;
+    width: 100%;
+}
+
+#tema5 .title {
+    font-size: 2em;
+}
+
+
+#ommigknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+}
+
+#ommigknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
