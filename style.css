@@ -1,0 +1,102 @@
+body {
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+
+nav {
+    grid-column-start: 1;
+}
+
+#info {
+    grid-column-start: 2;
+    text-align: left;
+}
+
+#fotocontainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer img {
+    width: 300px;
+    height: 300px;
+}
+
+#portfolio {
+    position: relative;
+}
+
+#portfolio .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+#portfolio .overlay:hover {
+    opacity: 1;
+}
+
+#portfolio img {
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio .title {
+    font-size: 2em;
+}
+
+#ommig {
+    position: relative;
+}
+
+#ommig .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+#ommig .overlay:hover {
+    opacity: 1;
+}
+
+#ommig img {
+    height: 100%;
+    width: 100%;
+}
+
+#ommig .title {
+    font-size: 2em;
+}
