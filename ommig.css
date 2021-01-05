@@ -1,0 +1,92 @@
+body {
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+
+
+#portfolioknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+}
+
+#portfolioknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#fotocontainer1 {
+    display: grid;
+    grid-template-columns: 309.6px auto;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer1 img {
+    width: 300px;
+    height: 300px;
+}
+
+#fotocontainer2 {
+    display: grid;
+    grid-template-columns: auto 309.6px;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer2 img {
+    width: 300px;
+    height: 300px;
+}
+
+#hvem {
+    border: 0.5px solid black;
+}
+
+#billede1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#hvem2 {
+    border: 0.5px solid black;
+}
+
+#billede2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#fotocontainer3 {
+    display: grid;
+    grid-template-columns: 309.6px auto;
+    margin-left: 7vw;
+    margin-top: 4vw;
+    grid-gap: 5vw;
+    margin-bottom: 5vw;
+}
+
+#hvem3 {
+    border: 0.5px solid black;
+}
+
+#billede3 img {
+    height: 100%;
+    width: 100%;
+}
