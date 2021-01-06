@@ -1,0 +1,145 @@
+body {
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+
+#ommigknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+}
+
+#ommigknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#portfolioknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+}
+
+#portfolioknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#fotocontainer1 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: 300px;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#fotocontainer1 img {
+    width: 300px;
+    height: 300px;
+}
+
+#hvem {
+    grid-column-start: 1;
+    border: 0.5px solid black;
+    grid-column-end: span 2;
+}
+
+#billede1 {
+    grid-column-start: 3;
+}
+
+#fotocontainer2 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: auto;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#hvem2 {
+    grid-column-start: 1;
+    border: 0.5px solid black;
+}
+
+#billede2 {
+    grid-column-start: 2;
+    border: 0.5px solid black;
+}
+
+#rubrik2 {
+    grid-column-start: 3;
+    border: 0.5px solid black;
+}
+
+
+#billede2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#hvem2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#rubrik2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#fotocontainer3 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: 300px;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#hvem3 {
+    grid-column-start: 1;
+    border: 0.5px solid black;
+    grid-column-end: span 3;
+}
+
+#fotocontainer4 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: auto;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#hvem4 {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    border: 0.5px solid black;
+}
+
+#fedtext {
+    font-weight: bold;
+}
+
+#fedtext2 {
+    font-weight: bold;
+}
+
+#fedtext3 {
+    font-weight: bold;
+}
