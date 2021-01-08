@@ -182,6 +182,7 @@ header {
     border-radius: 5px;
     background-color: ghostwhite;
     border: 0.5px solid;
+    cursor: pointer;
 }
 
 #ommigknap:hover {

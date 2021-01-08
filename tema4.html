@@ -5,10 +5,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grundlæggende Animation</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="tema4.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="profilbillede.png" alt="mig">
+            </a>
+        </nav>
+        <div id="info">
+            <h1 class="text">Marco Nyborg</h1>
+            <div id="navigation">
+                <a href="portfolio.html">
+                    <button id="portfolioknap">Portfolio</button>
+                </a>
+                <a href="ommig.html">
+                    <button id="ommigknap">Om mig</button>
+                </a>
+            </div>
+            <p class="text">Københavns Erhvervsakademi - Multimediedesigner</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="fotocontainer1">
+            <div id="hvem">
+                <h3 class="text">Assetliste og designdokumentation</h3>
+                <p>
+                    Da vi skulle kode og tegne eget spil helt fra bunden, blev vi indtroduceret til Adobe Illustrator, som jeg brugte til at tegne alt inhold, og alle mine assets i mit spil. Jeg havde en klar idé om hvilket spil jeg ville lave fra dag 1, så det var bare at gå i krig med at finde noget inspiration på diverse spil sites. Jeg fandt så et spil der simulerede meget godt, hvilket look jeg selv var ude efter. Så jeg gik efter at ramme det så meget som muligt, dog hvor man stadigvæk kunne se det var mit spil. Man kunne godt havde brugt XD eller Photoshop til at tegne de her assets, men Illustrator var klart det fornuftige valg til at tegne de her assets, der senere skulle exporteres i filformatet svg.
+                    <br>
+                    <br>
+                    <br>
+                    En svg fil er en fil der regner i vector, det var relevant for spillet fordi det skulle kunne fungere i alle størrelsesforhold, så det ikke blev pixeleret når det kom på en mindre skærm. Grunden til en svg fil kan klare opgaven her bedre, er at den bruger et to dimensionel vector grafisk format, med andre ord beskriver den billederne i text format. Svg står for Scalable Vector Graphics.
+                </p>
+            </div>
+            <div id="billede1">
+                <img src="skitse_spil.jpg" alt="skitse">
+            </div>
+
+            <div id="billede2">
+                <img src="baggrund.png" alt="baggrund">
+            </div>
+
+        </div>
+        <div id="fotocontainer2">
+            <div id="billede3">
+                <img src="startsk%C3%A6rm.png" alt="startskærm">
+            </div>
+            <div id="billede4">
+                <img src="mitspil.png" alt="mit spil">
+            </div>
+            <div id="hvem1">
+                <h3 class="text">Individuelt spil</h3>
+                <p class="text">
+                    Farvevalget i mit spil var ret ligetil, da jeg skulle simulere en fodboldbane, og for at være helt præcis, et straffesparks scenarie, var den grønne farve oplagt. Jeg kunne helt sikkert havde gået i detaljer mere, med reklamer på banden og tilskuere i baggrunden, men med tiden knap, valgte jeg at fokusere på de spil elementer som var fokus for spillets handling.
+                    <br>
+                    <br>
+                    <br>
+                    Mit spil havde en lidt anderledes opskrift end hvad vi var blevet vejledet til i første omgang, da jeg gerne ville have det her "wack a mole" lignende spil. Derfor lavede jeg en rød, og en blå bold, som skulle komme frem på skift. Måden jeg løste det på var i JavaScript. Jeg lavede en if sætning, der hed at den skulle generere et tal mellem 0-100, og hvis tallet var over 60, skulle bolden vise sig som blå, hvis den var under, skulle den vise sig som rød. Derefter gav jeg blå bold en function, der gav point, og jeg gav rød en function der gjorde så man mistede et liv. På begge functioner, resetter vi tilbage til if sætningen. Det gør vi indtil man enten har 0 liv, 10 point eller tiden er udløbet.
+                </p>
+            </div>
+        </div>
+    </main>
     <script src=""></script>
 </body>
 
