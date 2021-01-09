@@ -126,3 +126,167 @@ header {
     grid-column-start: 3;
     border: 0.5px solid black;
 }
+
+@media only screen and (max-width: 769px) and (min-width: 414px) {
+
+    body {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #info {
+        font-size: 14px;
+    }
+
+    #fotocontainer1 {
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+    #fotocontainer2 {
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+    #fotocontainer3 {
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 414px) and (min-width: 350px) {
+    body {
+        margin-left: 10vw;
+    }
+
+    header img {
+        width: 125px;
+        height: 125px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: auto 150px;
+        grid-gap: 5vw;
+    }
+
+    nav {
+        grid-column-start: 1;
+    }
+
+    #info {
+        grid-column-start: 2;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    #portfolioknap {
+        width: 55px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: ghostwhite;
+        border: 0.5px solid;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    #ommigknap {
+        width: 55px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: ghostwhite;
+        border: 0.5px solid;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    #fotocontainer1 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto auto;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+    #hvem {
+        grid-row-start: 1;
+    }
+
+    #billede1 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: span 2;
+    }
+
+    #billede1 img {
+        width: 309.6px;
+    }
+
+    #fotocontainer2 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto auto;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+    #hvem2 {
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+
+    #billede2 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    #billede2 img {
+        width: 309.6px;
+    }
+
+    #rubrik2 {
+        grid-row-start: 1;
+    }
+
+    #fotocontainer3 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto auto;
+        margin-top: 4vw;
+        grid-gap: 1vw;
+        margin-bottom: 5vw;
+        font-size: 12px;
+    }
+
+    #hvem3 {
+        grid-row-start: 1;
+    }
+
+    #billede3 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: span 2;
+    }
+
+    #billede3 img {
+        width: 309.6px;
+    }
+
+}

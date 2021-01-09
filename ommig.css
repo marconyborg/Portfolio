@@ -91,3 +91,106 @@ header {
     height: 100%;
     width: 100%;
 }
+
+@media only screen and (max-width: 769px) and (min-width: 414px) {
+
+    body {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #info {
+        font-size: 14px;
+    }
+
+    #fotocontainer1 {
+        display: grid;
+        grid-template-columns: 309.6px auto;
+        margin-left: 7vw;
+        margin-top: 4vw;
+        grid-gap: 5vw;
+        margin-bottom: 5vw;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 350px) {
+
+    body {
+        margin-left: 10vw;
+    }
+
+    header img {
+        width: 125px;
+        height: 125px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5vw;
+    }
+
+    nav {
+        grid-column-start: 1;
+    }
+
+    #info {
+        grid-column-start: 2;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    #fotocontainer1 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto;
+        margin-left: 0vw;
+        margin-top: 4vw;
+        grid-gap: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #hvem {
+        grid-row-start: 1;
+    }
+
+    #billede1 {
+        grid-row-start: 2;
+    }
+
+    #fotocontainer2 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto;
+        margin-left: 0vw;
+        margin-top: 4vw;
+        grid-gap: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #hvem2 {
+        grid-row-start: 1;
+    }
+
+    #billede2 {
+        grid-row-start: 2;
+    }
+
+    #fotocontainer3 {
+        display: grid;
+        grid-template-columns: 309.6px;
+        grid-template-rows: auto auto;
+        margin-left: 0vw;
+        margin-top: 4vw;
+        grid-gap: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #hvem3 {
+        grid-row-start: 1;
+    }
+
+    #billede3 {
+        grid-row-start: 2;
+    }
+}
