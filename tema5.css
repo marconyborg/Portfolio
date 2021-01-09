@@ -1,0 +1,94 @@
+body {
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+
+#ommigknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+    cursor: pointer;
+}
+
+#ommigknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#portfolioknap {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    border: 0.5px solid;
+    cursor: pointer;
+}
+
+#portfolioknap:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#fotocontainer1 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: 360px;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#hvem {
+    border: 0.5px solid black;
+    grid-column-start: 1;
+}
+
+#video {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+#video1 {
+    width: 100%;
+    height: 100%;
+}
+
+#fotocontainer2 {
+    display: grid;
+    grid-template-columns: 309.6px 309.6px 309.6px;
+    grid-template-rows: 360px 360px;
+    margin-top: 4vw;
+    grid-gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+#hvem2 {
+    border: 0.5px solid black;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+#billede2 {
+    border: 0.5px solid black;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+#billede2 img {
+    width: 100%;
+    height: 100%;
+}
