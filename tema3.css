@@ -1,3 +1,16 @@
+.text {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p,
+h3 {
+    font-size: 15px;
+}
+
+header p {
+    font-size: 20px;
+}
+
 body {
     margin-left: 22.5vw;
     margin-right: 22.5vw;
