@@ -77,7 +77,7 @@ header {
 }
 
 #tema2 .title {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #tema3 {
@@ -110,7 +110,7 @@ header {
 }
 
 #tema3 .title {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #tema4 {
@@ -143,7 +143,7 @@ header {
 }
 
 #tema4 .title {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #tema5 {
@@ -176,7 +176,7 @@ header {
 }
 
 #tema5 .title {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -219,6 +219,22 @@ header {
 
     #fotocontainer2 {
         margin-left: 0vw;
+    }
+
+    #tema2 .overlay {
+        opacity: 1;
+    }
+
+    #tema3 .overlay {
+        opacity: 1;
+    }
+
+    #tema4 .overlay {
+        opacity: 1;
+    }
+
+    #tema5 .overlay {
+        opacity: 1;
     }
 }
 
@@ -278,5 +294,25 @@ header {
 
     #tema5 {
         grid-row-start: 2;
+    }
+
+    #tema2 .overlay {
+        opacity: 1;
+    }
+
+    #tema3 .overlay {
+        opacity: 1;
+    }
+
+    #tema4 .overlay {
+        opacity: 1;
+    }
+
+    #tema5 .overlay {
+        opacity: 1;
+    }
+
+    #tema 2 .title {
+        font-size: 14px;
     }
 }
