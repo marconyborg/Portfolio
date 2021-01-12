@@ -180,13 +180,20 @@ header {
 }
 
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #ommigknap {
+    border: 0.5px solid black;
     width: 85px;
     height: 35px;
     border-radius: 5px;
     background-color: ghostwhite;
     border: 0.5px solid;
     cursor: pointer;
+    text-align: center;
 }
 
 #ommigknap:hover {

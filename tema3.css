@@ -27,6 +27,11 @@ header {
     grid-template-columns: 270px auto;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #ommigknap {
     width: 85px;
     height: 35px;
@@ -34,6 +39,9 @@ header {
     background-color: ghostwhite;
     border: 0.5px solid;
     cursor: pointer;
+    text-decoration: none;
+    grid-column-start: 2;
+    text-align: center;
 }
 
 #ommigknap:hover {
@@ -47,10 +55,18 @@ header {
     background-color: ghostwhite;
     border: 0.5px solid;
     cursor: pointer;
+    text-decoration: none;
+    grid-column-start: 1;
+    text-align: center;
 }
 
 #portfolioknap:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+#navigation {
+    display: grid;
+    grid-template-columns: 90px 85px;
 }
 
 #fotocontainer1 {
